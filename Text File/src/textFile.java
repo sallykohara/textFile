@@ -8,7 +8,7 @@ public class textFile
 		
 		public static void main(String[] args) throws IOException
 			{
-				ArrayList<textFile> results = ();
+				ArrayList<textFile> Student = new ArrayList<>();
 				getTextFile();
 			}
 			
@@ -17,7 +17,9 @@ public class textFile
 			Scanner file = new Scanner(new File("newTextFile.txt"));
 			while(file.hasNext())
 				{
-					
+					String firstName = file.next();
+					Student.add(new Student(String f, String l))
+				    System.out.println(firstName);
 				}
 		}
 
